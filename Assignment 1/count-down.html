@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<link rel="stylesheet" type="text/css" href="global.css">
+		<script type="text/javascript" src="./count-down.js"></script>
+	</head>
+	<body>
+		<div class="main">
+			<div id="timeWrapper">
+				<div class="hours">
+				</div>
+				<div class="minutes">
+				</div>
+				<div class="seconds" id = "seconds">
+				</div>
+			</div>
+			<div id="inputWrapper">
+				<input type="number" name="hours" id="hoursIn" defaultValue="0">
+				<input type="number" name="minutes" id="minutesIn" defaultValue="0">
+				<input type="number" name="second" id="secondsIn" defaultValue="1">
+			</div>
+			<button onclick="startTimer();">
+				Start!
+			</button>
+		</div>
+	</body>
+</html>
