@@ -7,17 +7,17 @@
 	<body>
 		<div class="main">
 			<div id="timeWrapper">
-				<div class="hours">
+				<div class="hours" id="hours">
 				</div>
-				<div class="minutes">
+				<div class="minutes" id="minutes">
 				</div>
 				<div class="seconds" id = "seconds">
 				</div>
 			</div>
 			<div id="inputWrapper">
-				<input type="number" name="hours" id="hoursIn" defaultValue="0">
-				<input type="number" name="minutes" id="minutesIn" defaultValue="0">
-				<input type="number" name="second" id="secondsIn" defaultValue="1">
+				<input type="number" name="hours" id="hoursIn" value="0">
+				<input type="number" name="minutes" id="minutesIn" value="0">
+				<input type="number" name="second" id="secondsIn" value="10">
 			</div>
 			<button onclick="startTimer();">
 				Start!
